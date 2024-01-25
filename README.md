@@ -48,7 +48,10 @@ For more detailed platform-specific instructions, see [doc/platform-build.md](do
 
 Windows:
 ```
-cd scripts
+"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2017\Visual Studio Tools\VC\x64 Native Tools Command Prompt for VS 2017.lnk"
+cd C:\msys64
+msys2_shell.cmd -mingw64
+cd D:\Github\Remote\chiaki\scripts
 bash ./appveyor-win.sh
 ```
 
