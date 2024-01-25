@@ -56,8 +56,8 @@ int real_main(int argc, char *argv[])
 	qRegisterMetaType<ChiakiRegistEventType>();
 	qRegisterMetaType<ChiakiLogLevel>();
 
-	QApplication::setOrganizationName("Chiaki");
-	QApplication::setApplicationName("Chiaki");
+	QApplication::setOrganizationName("Chiaki.canary");
+	QApplication::setApplicationName("Chiaki.canary");
 
 	ChiakiErrorCode err = chiaki_lib_init();
 	if(err != CHIAKI_ERR_SUCCESS)
