@@ -46,6 +46,12 @@ make
 
 For more detailed platform-specific instructions, see [doc/platform-build.md](doc/platform-build.md) or [switch/](./switch/README.md) for Nintendo Switch.
 
+Windows:
+```
+cd scripts
+bash ./appveyor-win.sh
+```
+
 ## Usage
 
 If your Console is on your local network, is turned on or in standby mode and does not have Discovery explicitly disabled, Chiaki should find it.
