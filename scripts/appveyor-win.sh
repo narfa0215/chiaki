@@ -16,6 +16,8 @@ cd ..
 
 export PATH="$PWD/ninja:$PWD/yasm:/c/Qt/5.12/msvc2017_64/bin:$PATH"
 
+pwd
+
 scripts/build-ffmpeg.sh . --target-os=win64 --arch=x86_64 --toolchain=msvc
 
 git clone https://github.com/xiph/opus.git && cd opus && git checkout ad8fe90db79b7d2a135e3dfd2ed6631b0c5662ab
